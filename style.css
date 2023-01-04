@@ -3,7 +3,7 @@
   margin: 0px;
 }
 
-html,body{
+html,body {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -20,3 +20,48 @@ html,body{
   position: absolute;
 }
  
+.layer {
+  width: 100%;
+  height: 635px;
+  text-align: center;
+  position: absolute;
+}
+
+.text_1 {
+  color: white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 53%;
+  left: 50%;
+}
+
+.rectangle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: -60px;
+  left: 50%;
+}
+
+.rectangle h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: lighter;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+  
+  
+  
+  
+  
+
+  
