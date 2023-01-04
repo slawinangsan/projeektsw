@@ -1,1 +1,22 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 
+html,body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: grey;
+}
+
+.image_1 {
+  background: url(krabik.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 635px;
+  text-align: center;
+  position: absolute;
+}
+ 
