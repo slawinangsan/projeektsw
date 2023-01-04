@@ -1,5 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Lobster');
 
 *{
   padding: 0px;
@@ -10,7 +14,7 @@ html,body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: gray;
+  background: #242629;
 }
 
 .image_1 {
@@ -89,20 +93,164 @@ html,body {
   color: white;
   outline: none;
   border: none;
-  width: 130%;
+  border: 1px solid #830005;
+  width: 130px;
   height: 35px;
 }
 
-.text_1_1 btn:hover {
+.text_1_btn:hover {
   background: white;
-  color: #830005;
-  transition: 0.8s ease;
-  border: 1px solid #830005;
+  color: black;
+  transition: 0.5s ease;
+  border: none;
 }
 
+/*---menu---*/
 
+.main a i {
+	font-size: 30px;
+}
 
-  
-  
+.fa-bars {
+	color: white;
+	float: left;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
 
-  
+.fa-close {
+	color: white;
+	float: left;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+	visibility: hidden;
+}
+
+.menu {
+	color: white;
+	width: 270px;
+	height: 635px;
+	position: absolute;
+	margin-left: -270px;
+}
+
+.background {
+	width: 270px;
+	height: 635px;
+	background: #ffd270;
+	position: absolute;
+	float: left;
+}
+
+.home {
+	width: 200px;
+	height: 70px;
+	background: #ffd270;
+	position: absolute;
+	border-bottom: 1px solid #f1aa78;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.home:hover {
+	background: rgba(0,0,0,0.2);
+	border-bottom: 4px solid rgba(0,0,0,0.3);
+	transition: 0.3s ease;
+}
+
+.home a {
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	margin-left: 70px;
+	margin-top: 28px;
+	position: absolute;
+	font-family: 'Monsterrat', sans-serif;
+}
+
+.home i {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	font-size: 20px;
+	transform: translate(-50%, -50%);
+}
+
+.about {
+	width: 200px;
+	height: 70px;
+	background: #ffd270;
+	position: absolute;
+	top: 32%;
+	border-bottom: 1px solid #f1aa78;
+	margin-top: -1px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.about:hover {
+	background: rgba(0,0,0,0.2);
+	border-bottom: 4px solid rgba(0,0,0,0.3);
+	transition: 0.3s ease;
+}
+
+.about a {
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	margin-left: 70px;
+	margin-top: 28px;
+	position: absolute;
+	font-family: 'Monsterrat', sans-serif;
+}
+
+.about i {
+	color: white;
+	text-decoration: none;
+	font-family: 'Monsterrat', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	font-size: 20px;
+	transform: translate(-50%, -50%);
+}
+
+.contact {
+	width: 200px;
+	height: 70px;
+	background: #ffd270;
+	position: absolute;
+	border-bottom: 1px solid #f1aa78;
+	top: 44%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.contact:hover {
+	background: rgba(0,0,0,0.2);
+	border-bottom: 4px solid rgba(0,0,0,0.3);
+	transition: 0.3s ease;
+}
+
+.contact a {
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	margin-left: 70px;
+	margin-top: 28px;
+	position: absolute;
+	font-family: 'Monsterrat', sans-serif;
+}
+
+.contact i {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	font-size: 20px;
+	transform: translate(-50%, -50%);
+}
