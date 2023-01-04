@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Quicksand:wght@300&display=swap');
+
 *{
   padding: 0px;
   margin: 0px;
@@ -40,8 +42,9 @@ html,body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  font-family: 'Quicksand', sans-serif;
   background: transparent;
-  border: 1px solid white;
+  border: 1px solid #830005;
   transform: translate(-50%, -50%);
   position: absolute;
   margin-top: -60px;
@@ -49,8 +52,9 @@ html,body {
 }
 
 .rectangle h2 {
-  color: white;
+  color: #830005;
   font-size: 50px;
+  font-family: 'Dancing Script', cursive;
   font-weight: lighter;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -58,9 +62,45 @@ html,body {
   left: 50%;
 }
 
-  
-  
-  
+.layer span {
+  text-align: center;
+  width: 80%;
+  height: 2px;
+  position: absolute;
+  margin-left: -40px;
+  background: #830005;
+}
+
+.text_1 h1 {
+  font_size: 80px;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 4px;
+}
+
+.text_1 p {
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text_1_btn {
+  background: white;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  outline: none;
+  border: 1px solid brown;
+  width: 130%;
+  height: 35px;
+}
+
+.text_1_1 btn:hover {
+  background: silver;
+  color: white;
+  transition: 0.8s ease;
+  border: none;
+}
+
+
+
   
   
 
