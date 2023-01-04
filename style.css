@@ -65,10 +65,10 @@ html,body {
 
 .layer span {
   text-align: center;
-  width: 80%;
+  width: 50%;
   height: 2px;
   position: absolute;
-  margin-left: -10px;
+  margin-left: 0px;
   background: #830005;
 }
 
