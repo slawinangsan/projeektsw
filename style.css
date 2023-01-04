@@ -68,6 +68,7 @@ html,body {
   width: 80px;
   height: 2px;
   position: absolute;
+  margin-left: -40px;
   background: #830005;
 }
 
@@ -83,20 +84,20 @@ html,body {
 }
 
 .text_1_btn {
-  background: white;
+  background: #830005;
   font-family: 'Quicksand', sans-serif;
   color: white;
   outline: none;
-  border: 1px solid brown;
+  border: none;
   width: 130%;
   height: 35px;
 }
 
 .text_1_1 btn:hover {
-  background: silver;
-  color: white;
+  background: white;
+  color: #830005;
   transition: 0.8s ease;
-  border: none;
+  border: 1px solid #830005;
 }
 
 
